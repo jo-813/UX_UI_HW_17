@@ -1,7 +1,10 @@
+body {
+    background-color: black;
+}
+/*  nav bar  */
 .inline_block {
     display: inline-block;
     vertical-align: top;
-    font-family: mostra-nuova, sans-serif;
 }
 .logo {
     width: 23%;
@@ -11,15 +14,20 @@
 nav {
     width: 73%;
     padding: 1%;
-    background-color: azure;
+    align-content: left;
+    
 }
-nav a {
+nav ul {
     width: 50%;
     margin-left: auto;
 }
-a {
-    padding: 20px;
+nav li {
+    padding: 20px; 
+    font-size: 25px;
+    color: #E8DCD7;
+    font-family: mostra-nuova, sans-serif;
 }
+/*  hero image  */
 .heroImg {
     height: 600px; 
     padding: 25px; 
@@ -28,13 +36,40 @@ a {
     width: 500px; 
     margin: 0 auto; 
 }
+img {
+    height: 300px;
+    border-radius: 50%;
+    box-align: right; 
+}
+p {
+    font-family: Roboto Condensed; 
+    font-size: 18px; 
+    color: #E8DCD7;
+}
+button {
+    font-family: Roboto Condensed; 
+    font-size: 18px; 
+    background-color: #945d5e;
+    color: white;
+    border-radius: 8px; 
+    border: none; 
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/*   footer   */
 footer {
-    background-color: #373738;
+    background-color: #84948c;
     padding: 1%;
 }
 footer ul {
     color: white; 
+    width: 50%;
+    margin-left: auto;
 }
 footer li {
     padding: 20px;
+    font-size: 18px; 
+    font-family: mostra-nuova, sans-serif;
 }
