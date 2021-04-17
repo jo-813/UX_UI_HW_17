@@ -6,13 +6,8 @@ body {
     display: inline-block;
     vertical-align: top;
 }
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
 nav {
-    width: 73%;
+    width: 100%;
     padding: 1%;
     align-content: left;
     
@@ -39,7 +34,6 @@ nav li {
 img {
     height: 300px;
     border-radius: 50%;
-    box-align: right; 
 }
 p {
     font-family: Roboto Condensed; 
@@ -64,7 +58,6 @@ footer {
     padding: 1%;
 }
 footer ul {
-    color: white; 
     width: 50%;
     margin-left: auto;
 }
@@ -72,4 +65,5 @@ footer li {
     padding: 20px;
     font-size: 18px; 
     font-family: mostra-nuova, sans-serif;
+    color: #2a2a2a;
 }
